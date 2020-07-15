@@ -1,0 +1,119 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+	background: whitesmoke;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+  background-color:rgba(0,0,0, .7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.font1_red {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  	font-style: normal;
+	font-size: 13px;
+	font-weight: bold;
+	color:#CC0000;
+}
+
+.boton{
+			text-decoration: none;
+			padding: 20px;
+			font-weight: 60px;
+			font-size: 20px;
+			color: black;
+			background-color: whitesmoke;
+			border-radius: 25px;
+			border: 5px solid rgba(0,0,0, 0.7);
+		  }
+textarea { 
+			resize: both;
+		}
+	
+	
+	 .Registro {
+	  display: grid;
+	  grid: 100px / center auto auto;
+	  grid-gap: 5px;
+	  background-color: whitesmoke;
+	  padding: 0px;
+	  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+	.Registro>div {
+	  background-color: whitesmoke;
+	  text-align: center;
+	  padding:0px 0;
+	  font-size: 15px;
+	}
+	.font1_black_25 {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  		font-style: normal;
+		font-size: 25px;
+  		font-weight: bold;
+		color:#000000;
+	}
+	  .caja { 
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	color: rgba(0,0,0, .7); 
+	font-size: 15px; 
+	font-weight: 20; 
+	text-align: center; 
+	background: whitesmoke; 
+	margin: 0 0 5px; 
+	overflow: hidden; 
+	padding: 5px; 
+	border-radius: 15px 0px 15px 0px;  
+	border: 2px groove rgba(0,0,0, .7);}
+		#nav { 
+			margin: 0 auto;
+			padding: 5px 0;
+			display: inline-block;
+			background-color:rgba(0, 108, 250, 0.966);
+		   
+		 }
+		 
+		 #nav li {
+			font-size: 145%;
+			margin: 0 10px;
+			padding: 0 0 0px;
+			float: left;
+			position: center;
+			list-style: none;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+		 }
+		 
+		 #nav a {
+			font-weight: bold;
+			color: whitesmoke;
+			text-decoration: whitesmoke;
+			display: block;
+			padding: 5px 5px;
+			margin: 0;
+			
+			border-radius: 0.5em;
+			text-shadow: 10 10px 10px rgba(0,0,0, 0);
+		 }
+		 
+		 
+		 #nav a:hover {
+			background: black;
+			color: whitesmoke;
+		 }
+		  
+		
+		 

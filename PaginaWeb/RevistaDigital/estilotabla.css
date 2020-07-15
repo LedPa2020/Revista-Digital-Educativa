@@ -1,0 +1,134 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  background: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	background-color:rgba(0,0,0, .7);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	color: whitesmoke;
+}
+#nav { 
+    margin: 0 auto;
+    padding: 5px 0;
+    display: inline-block;
+    background-color:rgba(0, 108, 250, 0.966);
+   
+ }
+ 
+ #nav li {
+    font-size: 145%;
+    margin: 0 10px;
+    padding: 0 0 0px;
+    float: left;
+    position: center;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ #nav a {
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: whitesmoke;
+    display: block;
+    padding: 5px 5px;
+    margin: 0;
+    
+    border-radius: 0.5em;
+    text-shadow: 10 10px 10px rgba(0,0,0, 0);
+ }
+ 
+ 
+ #nav a:hover {
+    background: black;
+    color: whitesmoke;
+ }
+ .caja { 
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	color: rgba(0,0,0, .7); 
+	font-size: 15px; 
+	font-weight: 20; 
+	text-align: center; 
+	background: whitesmoke; 
+	margin: 0 0 5px; 
+	overflow: hidden; 
+	padding: 5px; 
+	border-radius: 15px 0px 15px 0px;  
+    border: 2px groove rgba(0,0,0, .7);}
+    
+    .boton{
+        text-decoration: none;
+        padding: 7px;
+        font-weight: 30px;
+        font-size: 20px;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        border: 5px solid rgba(0,0,0, 0.7);
+      }
+
+      .font1_red {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+          font-style: normal;
+        font-size: 13px;
+        font-weight: bold;
+        color:#CC0000;
+    }
+    table.table1{
+        font-family: "Trebuchet MS", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.4em;
+        font-style: normal;
+        border-collapse:separate;
+    }
+    .table1 thead th{
+        padding:15px;
+        color:whitesmoke;
+        
+        background-color:rgba(15, 30, 172, 0.993);
+        background:-webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0.02, rgba(15, 109, 172, 0.993)),
+            color-stop(0.51, rgba(15, 60, 172, 0.996)),
+            color-stop(0.87, rgba(15, 30, 172, 0.993))
+            );
+        background: -moz-linear-gradient(
+            center bottom,
+            rgb(2, 128, 247) 2%,
+            rgb(2, 158, 217) 51%,
+            rgb(2, 108, 200) 87%
+            );
+        -webkit-border-top-left-radius:5px;
+        -webkit-border-top-right-radius:5px;
+        border-radius:5px 5px 0px 0px;
+        border-top-left-radius:5px;
+        border-top-right-radius:5px;
+    }
+    .table1 thead th:empty{
+        background:transparent;
+        border:none;
+    }
+    .table1 tbody td{
+        padding:10px;
+        text-align:center;
+        background-color:rgba(5, 154, 253, 0.966);
+        border: 2px solid whitesmoke;
+        -moz-border-radius:2px;
+        -webkit-border-radius:2px;
+        border-radius:2px;
+        color:whitesmoke;
+        text-shadow:1px 1px 1px black;
+    }
+   

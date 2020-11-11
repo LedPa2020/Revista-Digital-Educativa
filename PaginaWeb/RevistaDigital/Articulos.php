@@ -86,7 +86,7 @@ function abrir1(){
                     <h1>BIBLIOTECA DE <FONT style="color:BLUE;">PRIMER</FONT> AÑO</h1>
                         <table border="3" cellspacing="0">
                                 <tr>
-                                        <td><h1>MATERIAL OBLIGATORIO</h1></td>
+                                        <td><h1>MATERIAL OBLIGATORIO PRUEBA PRUEBA</h1></td>
                                         <td><H1>MATERIAL COMPLEMENTARIO</H1></td>
                                         <td><H1>TRABAJOS PRACTICOS</H1></td>
                 
